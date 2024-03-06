@@ -1,0 +1,7 @@
+for number in range(100, 1000):
+    digit1 = number // 100
+    digit2 = (number % 100) // 10
+    digit3 = number % 10
+
+    if digit1 != digit2 and digit1 != digit3 and digit2 != digit3:
+        print(number)
